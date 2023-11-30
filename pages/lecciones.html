@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripcion" content="el mejor contenido para un optimo aprendizaje con explicaciones claras y concretas, desde lo mas básico al detalle">
+        <meta name="apuntes, facil, comodo, rapido, progresivo">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../estilos/styles.css">
+        <title>Lecciones</title>
+    </head>
+    <body>
+        <header class="bg-secondary">
+            <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+                <div class="container-fluid">
+                    <img id="logo" src="../imagenes/logo.png" alt="logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-light link" href="cursos.html">cursos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light link" href="sobremi.html">sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light link" href="lecciones.html">lecciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light link" href="donaciones.html">donaciones</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="contenedorPrincipalLecciones col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+            <section id="seccion1">        
+                <h2>Colores</h2>
+                <article id="article1">
+                    <p class="descripciones">Hasta la llegada 
+                        de CSS3, los colores se podían representar mediante 
+                        el nombre del color en idioma Ingles, un valor exadecimal, 
+                        o utilizando los valores RGB que hace referencia 
+                        a la mezcla de colores "RED" (rojo), "GREEN" (verde) y "BLUE" 
+                        (azul).<br>
+                        La propiedad "OPACITY" se utilizaba para dar transparencia, 
+                        pero el problema es que afecta a todo el contenido del contenedor. 
+                        Esto se resolvió agregando un último valor al final a los valores 
+                        RGB, denominado canal ALPHA , quedando rgba(), y cuyo valor va 
+                        de 0 a 1. (Ej: 0, 0.1, 0.2, 0.3, etc.).<br><br>
+                        En consecuencia, los colores se pueden 
+                        determinar de las siguientes maneras:</p>
+                </article>
+            </section>
+            <section id="seccion2">
+                <article class="articleTexto">
+                    <p class="centrado">color: #ff0000;</p>
+                </article>
+                <article class="articleTexto">
+                    <p class="centrado">color: rgb(255,0,0);</p>
+                </article>
+                <article id="marginInferior" class="articleTexto">
+                    <p class="centrado">color: rgba(255,0,0,1);</p>
+                </article>
+                <p class="descripciones"> Ejemplos de transparencia de acuerdo a los valores 
+                    del canal ALPHA. Tengamos en cuenta que podemos utilizar indistintamente 
+                    las propiedades "background-color", como "background". Asimismo, en el 
+                    siguiente ejemplo, vamos del valor 0 (que representa la máxima transparencia) 
+                    hasta el valor 1 (que representa al color puro).
+                </p>
+            </section>
+            <section class="seccion3">
+                <article id="transparencia_fondo10">
+                    <p class="centrado">background-color: rgba(255, 0, 0, 0);</p>
+                </article>
+                <article id="transparencia_fondo9">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .1);</p>
+                </article>
+                <article id="transparencia_fondo8">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .2);</p>
+                </article>
+                <article id="transparencia_fondo7">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .3);</p>
+                </article>
+                <article id="transparencia_fondo6">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .4);</p>
+                </article>
+                <article id="transparencia_fondo5">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .5);</p>
+                </article>
+                <article id="transparencia_fondo4">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .6);</p>
+                </article>
+                <article id="transparencia_fondo3">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .7);</p>
+                </article>
+                <article id="transparencia_fondo2">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .8);</p>
+                </article>
+                <article id="transparencia_fondo1">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .9);</p>
+                </article>
+                <article id="transparencia_fondo0">
+                    <p class="centrado">background-color: rgba(255, 0, 0, .1);</p>
+                </article>
+            </section>
+            <section>
+                <article class="espacioInterior">
+                    <p class="descripciones"> En CSS3 también se introdujo una 
+                        nueva forma de representar los colores con la denominación HSL (Hue, 
+                        Saturation, Luminosity), es decir, Tono, Saturación y Luminosidad.</p>
+                    <p class="descripciones"> El Tono se indica con un valor que 
+                        va del 0 a 360 que representa la totalidad de los colores existentes en la 
+                        rueda de colores, la Saturación que va de 0% a 100%, en el que 0 es nada 
+                        saturado y 100 % la saturación máxima, y la luminosidad que desde 0% (nada 
+                        luminoso, o sea, negro) a 100% (máxima luminosidad, o sea, blanco), y al 50% 
+                        representa al color puro.</p> 
+                    <p class="descripciones">También se le puede agregar el canal 
+                        ALPHA. Te invito a que experimentes, interactuando con dicho sistema de 
+                        colores en la página <a href="https://hslpicker.com" target="_blank">hslpicker.com</a>
+                        en la que además, encontrarás el código de color EXADECIMAL, RGB y HSL.</p>
+                </article>
+                <article class="espacioInterior">
+                <h3 class="subtitulo">Rueda de colores HSL</h3>
+                <img id="ruedaColores" src="../imagenes/rueda_colores.jpg" alt="Rueda de colores">    
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div id="contenidoRedes">
+                <a href="https://www.facebook.com/raul.segale.5" target="_blank"><img class="iconosRedes" 
+                    src="./imagenes/facebook.png" alt="icono de facebook"></a>
+                <a href="https://www.instagram.com/invites/contact/?i=1i0y47j692gth&utm_content=w9jmbs" 
+                    target="_blank"><img class="iconosRedes" src="./imagenes/instagram.png" 
+                    alt="icono de instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=543476534994" target="_blank">
+                    <img class="iconosRedes" src="./imagenes/whatsapp.png" alt="icono de whatsapp"></a>
+                <a href="https://t.me/RaulHSegale" target="_blank"><img class="iconosRedes" 
+                    src="./imagenes/telegram.png" alt="icono de telegram"></a>
+                <a href="mailto:raulsegale@hotmail.com" target="_blank"><img class="iconosRedes" 
+                    src="./imagenes/hotmail.png" alt="icono de hotmail"></a>
+            </div>
+        </footer class="bg-secondary">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
